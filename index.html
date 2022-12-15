@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rento Cars</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <nav  class="navbar navbar-expand-md bg-dark navbar-dark py-2 fixed-top">
+        <div class="container"><img src="./images/logo.png" alt="logo">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"> <span class="navbar-toggler-icon"></span></button>
+        
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto text-color">
+                <li class="nav-item">
+                    <a href="#Home" class="nav-link px-4">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Hire a car" class="nav-link px-4">Hire a car</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Questions" class="nav-link px-4">Questions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#staffs" class="nav-link px-4">Staffs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact-us" class="nav-link px-4">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- showcase -->
+    <section class="bg-dark text-light p-5 pt-lg-0 p-lg-0 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>
+                        Best <span class="text-warning">Car Dealer</span> 
+                    </h1>
+                    <h5 class="text-warning">Tested and Trusted</h5>
+                     <p class="lead my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, quae. Veniam possimus optio vero perferendis soluta quidem fugiat fugit autem deleniti qui, necessitatibus laboriosam id quo dolor, quasi distinctio? Deserunt.</p> 
+                     <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Sign Up</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="./images/NicePng_car-back-view-png_4154657.png" alt="banner-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-item-center">
+                <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" class="btn btn-outline-secondary" type="button" id="button-addon2">
+                    <botton class="btn btn-dark btn-lg " type="button" >Button</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Boxes -->
+    <section id="Hire a car" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4 text-light bg-dark py-3">Hire A Car</h2>
+            <div class="row g-5">
+                <div class="col-md">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <div class="card-img">
+                                <img class="w-50" src="./images/car_img2.png" alt="car-img1">
+                            </div>
+                            <div class="card-title pt-3"><h3>AUDI</h3></div>
+                            <div class="card-text pb-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt magni dicta a, veniam iusto officiis doloribus iste.
+                            </div>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <div class="card-img">
+                                <img class="w-50" src="./images/car_img3.png" alt="car-img1">
+                            </div>
+                            <div class="card-title pt-3"><h3>BMW</h3></div>
+                            <div class="card-text pb-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt magni dicta a, veniam iusto officiis doloribus iste.
+                            </div>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-light text-dark">
+                        <div class="card-body text-center">
+                            <div class="card-img">
+                                <img class="w-50" src="./images/car_img1.png" alt="car-img1">
+                            </div>
+                            <div class="card-title pt-3"><h3>HONDA</h3></div>
+                            <div class="card-text pb-3">
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt magni dicta a, veniam iusto officiis doloribus iste.
+                            </div>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- hire section -->
+    <section class="bg-white text-dark p-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between p-5">
+                <div>
+                    <h1>
+                       Morgade a Car
+                    </h1>
+                     <p class="lead my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, quae. Veniam possimus optio vero perferendis soluta quidem fugiat fugit autem deleniti qui, necessitatibus laboriosam id quo dolor, quasi distinctio? Deserunt.</p>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="./images/PikPng.com_back-of-car-png_2200821.png" alt="banner-image">
+            </div>
+        </div>
+        <div class="bg-dark text-light p-5 pt-lg-0 p-lg-0 text-center text-sm-start">
+            <div class="container">
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <div>
+                     <h1>
+                        Buy a Car 
+                     </h1>
+                     <p class="lead my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, quae. Veniam possimus optio vero perferendis soluta quidem fugiat fugit autem deleniti qui, necessitatibus laboriosam id quo dolor, quasi distinctio? Deserunt.</p>
+                    </div>
+                    <img class="img-fluid w-50 d-none d-sm-block" src="./images/kisspng-united-states-dollar-fha-insured-loan-money-bankno-money-us-dollars-5a755c163fcdd7.1639242915176407262614.png" alt="banner-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Question Accordion -->
+    <section id="Questions" class="p-5">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                 Frequently Asked Questions
+            </h2>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one"> Where are you located? 
+                    </button>
+                </h2>
+                
+                <div class="accordion-collapse collapse" id="question-one" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ad, quo asperiores quia eius voluptatum maiores voluptate. Tenetur magni provident ea consequatur recusandae. Dolorem, maiores quibusdam corrupti earum eligendi veritatis id, voluptatem alias iste, harum fugiat obcaecati maxime aut! Cupiditate, debitis. Voluptate quo possimus voluptatibus, et reiciendis nemo architecto magnam?
+                    </div>
+                </div>
+                
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two">
+                        How do i get started? 
+                    </button>
+                </h2>
+                
+                <div class="accordion-collapse collapse" id="question-two" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ad, quo asperiores quia eius voluptatum maiores voluptate. Tenetur magni provident ea consequatur recusandae. Dolorem, maiores quibusdam corrupti earum eligendi veritatis id, voluptatem alias iste, harum fugiat obcaecati maxime aut! Cupiditate, debitis. Voluptate quo possimus voluptatibus, et reiciendis nemo architecto magnam?
+                    </div>
+                </div>
+                
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three"> 
+                        How can i buy a car with you? 
+                    </button>
+                </h2>
+                
+                <div class="accordion-collapse collapse" id="question-three" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ad, quo asperiores quia eius voluptatum maiores voluptate. Tenetur magni provident ea consequatur recusandae. Dolorem, maiores quibusdam corrupti earum eligendi veritatis id, voluptatem alias iste, harum fugiat obcaecati maxime aut! Cupiditate, debitis. Voluptate quo possimus voluptatibus, et reiciendis nemo architecto magnam?
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-four"> 
+                        How you have a car insurance scheme? 
+                    </button>
+                </h2>
+                
+                <div class="accordion-collapse collapse" id="question-four" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ad, quo asperiores quia eius voluptatum maiores voluptate. Tenetur magni provident ea consequatur recusandae. Dolorem, maiores quibusdam corrupti earum eligendi veritatis id, voluptatem alias iste, harum fugiat obcaecati maxime aut! Cupiditate, debitis. Voluptate quo possimus voluptatibus, et reiciendis nemo architecto magnam?
+                    </div>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-five"> 
+                        who do i need to know? 
+                    </button>
+                </h2>
+                
+                <div class="accordion-collapse collapse" id="question-five" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ad, quo asperiores quia eius voluptatum maiores voluptate. Tenetur magni provident ea consequatur recusandae. Dolorem, maiores quibusdam corrupti earum eligendi veritatis id, voluptatem alias iste, harum fugiat obcaecati maxime aut! Cupiditate, debitis. Voluptate quo possimus voluptatibus, et reiciendis nemo architecto magnam?
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-six"> 
+                        Do i need to pay once for a car? 
+                    </button>
+                </h2>
+                
+                <div class="accordion-collapse collapse" id="question-six" data-bs-parent="#questions">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam ad, quo asperiores quia eius voluptatum maiores voluptate. Tenetur magni provident ea consequatur recusandae. Dolorem, maiores quibusdam corrupti earum eligendi veritatis id, voluptatem alias iste, harum fugiat obcaecati maxime aut! Cupiditate, debitis. Voluptate quo possimus voluptatibus, et reiciendis nemo architecto magnam?
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+<!-- staffs section-->
+
+    <section id="staffs" class="p-5 bg-primary">
+        <div class="container">
+            <h2 class="text-center text-white">
+                Our key Staffs
+            </h2>
+            <p class="lead text-center text-white mb-5"> Our Staffs are highly qualified with the minimum of 5 years experience in car industries.</p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/protraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Olatunde</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quisquam harum aliquid, quos molestiae illum facilis error vel architecto iusto saepe quibusdam deleniti ratione voluptatum beatae minima quia commodi officiis!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/protraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Sam</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quisquam harum aliquid, quos molestiae illum facilis error vel architecto iusto saepe quibusdam deleniti ratione voluptatum beatae minima quia commodi officiis!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/protraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Daniel</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quisquam harum aliquid, quos molestiae illum facilis error vel architecto iusto saepe quibusdam deleniti ratione voluptatum beatae minima quia commodi officiis!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/protraits/men/11.jpg" class="rounded-circle mb-3" alt="">
+                            <h3 class="card-title mb-3">Adewale</h3>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quisquam harum aliquid, quos molestiae illum facilis error vel architecto iusto saepe quibusdam deleniti ratione voluptatum beatae minima quia commodi officiis!</p>
+                            <a href="#"><i class="bi bi-twitter text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-facebook text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i>
+                            </a>
+                            <a href="#"><i class="bi bi-instagram text-dark mx-1"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- contact and Map -->
+    <section class="p-5" id="contact-us">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">
+                        Contact Us
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main location:</span> No 35 Alex Estate Temidun Ogbomoso, Ibadan Oyo state
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Companies line:</span> +234 814 0339 112 
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Custormer care:</span> +234 1134
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">E-mail:</span> rentocars@gmail.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <div id="map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">Copyright &copy; 2022 M_Creative websites</p>
+
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" arial-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="model-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="
+                modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <p class="lead ">
+                    Fill out this form and we will get back to you.
+                </p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            <span class="fw-bold">First Name:</span>
+                        </label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="other-names" class="col-form-label">
+                            <span class="fw-bold">Other Names:</span>
+                        </label>
+                        <input type="text" class="form-control" id="other-names">
+                    </div>
+                    <div class="mb-3">
+                        <label for="e-mail" class="col-form-label">
+                            <span class="fw-bold">E-mail:</span>
+                        </label>
+                        <input type="text" class="form-control" id="e-mail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Phone-nunber" class="col-form-label">
+                            <span class="fw-bold">Phone Number:</span>
+                        </label>
+                        <input type="text" class="form-control" id="phone-number">
+                    </div>
+                </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+        mapboxgl.accessToken = 'pk.eyj1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMd0LAGGiL1Auw';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [-71.060982, 42.35725],
+        zoom: 18,
+        });
+    </script>
+</body>
+</html>
