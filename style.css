@@ -11,6 +11,16 @@ body::before{
     border-radius: 10px
 }
 
+
+img.rounded-circle{
+    height: 50%;
+    width: 50%;
+    border: 1px solid white;
+    box-shadow: 5px 5px 46px -12px rgba(94,86,86,0.83);
+    -webkit-box-shadow: 5px 5px 46px -12px rgba(94,86,86,0.83);
+    -moz-box-shadow: 5px 5px 46px -12px rgba(94,86,86,0.83);
+}
+
 @media(min-width: 768px) {
     .news-input{
         width: 50%;
